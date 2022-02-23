@@ -1,0 +1,1 @@
+`адрес деплоя ` - [https://synonyms-study.herokuapp.com/](https://synonyms-study.herokuapp.com/)

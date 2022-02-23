@@ -1,0 +1,4 @@
+Links to used models, download them and place in <models> dir in the projects root
+Models are excluded from git index due to models huge size (about ~ 300mb)
+english_model.bin - http://vectors.nlpl.eu/repository/20/200.zip
+russian_model.bin - http://vectors.nlpl.eu/repository/20/180.zip

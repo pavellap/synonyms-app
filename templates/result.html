@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="d-flex flex-column align-items-center text-uppercase pt-5">
+        <h2>Requested word: {{ word }}</h2>
+        <span style="font-size: 21px">We have successfully found synonyms from {{ language }} language  for you</span>
+        <section class="d-flex flex-row mt-3">
+            {% for word in words %}
+                <div class="px-2 py-1 shadow mx-1">
+                    <span class="text-uppercase">{{ word }}</span>
+                </div>
+            {% endfor %}
+        </section>
+        <a class="btn btn-primary mt-4" href="/" role="button">Try another word</a>
+    </div>
+{% endblock %}

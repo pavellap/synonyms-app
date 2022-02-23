@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Synonym search service</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+          crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .text-description {
+            font-size: 21px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<header class="d-flex flex-wrap justify-content-center py-3 border-bottom bg-dark px-3">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <span class="fs-4 link-light">Synonym search service</span>
+    </a>
+</header>
+
+<section class="pt-4 d-flex flex-column flex-grow-1">
+    {% block content %} {% endblock %}
+</section>
+
+<script>
+
+</script>
+</body>
+</html>
